@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+}
+
+form {
+    border: 10px solid orangered;
+    position: relative;
+}
+
+.inputs {
+    margin: 5px;
+    padding: 3px;
+    
+}
+
+.opretion {
+    margin: 5px;
+    padding: 3px;
+}
+
+.clear {
+    margin: 5px;
+    padding: 3px;
+}
+
+#t3 {
+    margin: 5px;
+    padding: 3px;
+}

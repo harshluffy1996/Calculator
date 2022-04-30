@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./Assets/CSS/cal.css" />
+    <script src="./cal.js"></script>
+  </head>
+  <body>
+    <form action="F1">
+      <div class="inputs">
+        <input type="text" id="t1" placeholder="Enter First Number" required />
+        <input type="text" id="t2" placeholder="Enter Second Number" required />
+      </div>
+      <div id="t3">Result</div>
+      <div class="opretion">
+        <input type="button" value="  +  " id="1" onclick="add()" />
+        <input type="button" value="  -  " id="2" onclick="sub()" />
+        <input type="button" value="  /  " id="3" onclick="divide()" />
+        <input type="button" value="  *  " id="4" onclick="multiply()" />
+      </div>
+    </form>
+  </body>
+</html>
