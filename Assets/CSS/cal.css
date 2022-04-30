@@ -9,17 +9,19 @@ form {
 .inputs {
     margin: 5px;
     padding: 3px;
-    
+    box-shadow: 5px;
 }
 
 .opretion {
     margin: 5px;
     padding: 3px;
+    box-shadow: 5px;
 }
 
 .clear {
     margin: 5px;
     padding: 3px;
+    box-shadow: 5px;
 }
 
 #t3 {
